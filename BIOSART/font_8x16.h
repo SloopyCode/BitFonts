@@ -5,11 +5,8 @@
 #define FONT_HEIGHT 16
 
 // 8x12 Bold font
-// Sloopy's 2025 free font software
-
-// Font data: 256 characters, each 16 bytes (8x16 pixels)
+// Sloopy's 2026 free font software
 static const uint8_t font_8x16[256][16] = {
-    // 0x00-0x1F: Control characters (leer)
     [0x00] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
     [0x01] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
     [0x02] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
